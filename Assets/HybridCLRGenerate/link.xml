@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="TEngine.Runtime">
+    <type fullname="TEngine.Runtime.Entity.EntityEvent" preserve="all" />
+    <type fullname="TEngine.Runtime.GameEvent" preserve="all" />
+    <type fullname="TEngine.Runtime.Log" preserve="all" />
+    <type fullname="TEngine.Runtime.MonoUtility" preserve="all" />
+    <type fullname="TEngine.Runtime.UIModule.UIManager" preserve="all" />
+    <type fullname="TEngine.Runtime.UIModule.UISys" preserve="all" />
+    <type fullname="TEngine.Runtime.UIModule.UIWindow" preserve="all" />
+    <type fullname="TEngine.Runtime.UIModule.UIWindowBase" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule">
+    <type fullname="UnityEngine.Component" preserve="all" />
+    <type fullname="UnityEngine.Events.UnityAction" preserve="all" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="all" />
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="all" />
+  </assembly>
+  <assembly fullname="mscorlib">
+    <type fullname="System.Action`1" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute" preserve="all" />
+    <type fullname="System.Diagnostics.DebuggableAttribute/DebuggingModes" preserve="all" />
+    <type fullname="System.Object" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.CompilationRelaxationsAttribute" preserve="all" />
+    <type fullname="System.Runtime.CompilerServices.RuntimeCompatibilityAttribute" preserve="all" />
+  </assembly>
+</linker>

@@ -1,0 +1,21 @@
+[
+  {
+    "abName": "dll.bin",
+    "assets": [
+      "Assets/HotfixRes/dll/HotfixCommon.dll.bytes",
+      "Assets/HotfixRes/dll/HotfixMain.dll.bytes",
+      "Assets/HotfixRes/dll/mscorlib.dll.bytes",
+      "Assets/HotfixRes/dll/System.Core.dll.bytes",
+      "Assets/HotfixRes/dll/System.dll.bytes"
+    ],
+    "depend": []
+  },
+  {
+    "abName": "ui.bin",
+    "assets": [
+      "Assets/HotfixRes/UI/V_Content.prefab",
+      "Assets/HotfixRes/UI/V_ViewType.prefab"
+    ],
+    "depend": []
+  }
+]
